@@ -1,0 +1,35 @@
+body
+{
+    background-color: rgb(238, 165, 97);
+    color: rgba(15, 18, 21, 0.923);
+}
+
+.main-grid
+{
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+    grid-template-rows: repeat( 2, 1fr);
+    gap: 20px;
+    place-items: center;
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+
+.colorChange
+{
+    color: aqua;
+}
+
+.backgroundChange
+{
+    background-color: blueviolet;
+}
+
+.fontChange
+{
+    font-size: smaller;
+}
